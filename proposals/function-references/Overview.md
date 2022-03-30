@@ -293,8 +293,8 @@ Like all other block instructions, `let` binds a label
 | ------ | --------------- | ---------- |
 | -0x10  | `funcref`       |            |
 | -0x11  | `externref`     |            |
-| -0x14  | `(ref null ht)` | `$t : heaptype` |
-| -0x15  | `(ref ht)`      | `$t : heaptype` |
+| -0x14  | `(ref null ht)` | `ht : heaptype` |
+| -0x15  | `(ref ht)`      | `ht : heaptype` |
 
 #### Heap Types
 
